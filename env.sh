@@ -4,6 +4,7 @@ p_path=/home/adam/Desktop/PwrAIML
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
+
 sudo apt-get -y install python3.8
 sudo update-alternatives --remove-all python3
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
