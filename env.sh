@@ -22,3 +22,7 @@ sudo apt-get -y install python3-lxml
 # VENV CREATION
 python3.8 -m venv $p_path/venv
 $p_path/venv/bin/python3 -m pip install -r $p_path/requirements.txt
+
+sudo $p_path/venv/bin/pip3 install jupyterlab
+sudo $p_path/venv/bin/pip3 install ipykernel
+sudo $p_path/venv/bin/python3 -m ipykernel install --name=venv
